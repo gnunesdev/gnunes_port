@@ -63,7 +63,7 @@ header {
 .me {
   color: #000;
   text-align: center;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: center; }
@@ -73,6 +73,9 @@ header {
 
 .me h2 {
   color: #444444; }
+
+.container {
+  width: 85%; }
 
 .about-me {
   background-color: #7f4fd3; }
@@ -148,10 +151,43 @@ header {
   text-align: center;
   border-radius: 6px; }
 
+.experience {
+  background-color: #7f4fd3; }
+  .experience .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; }
+  .experience h2 {
+    padding: 1em 0 0 0;
+    font-size: 2.5em; }
+  .experience p {
+    padding: 1em 0 1.5em 0;
+    width: 50%;
+    text-align: justify;
+    text-align-last: right;
+    -moz-text-align-last: right;
+    font-size: 1.2em;
+    line-height: 1.6em; }
+  .experience button {
+    padding: .6em;
+    font-size: 1.2em;
+    color: white;
+    background-color: #301461;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all .2s ease;
+    margin-bottom: 2em;
+    width: 10em; }
+  .experience button:hover {
+    background-color: #4d2e83; }
+
 .contact {
-  background-color: #7f4fd3;
+  background-color: #fff;
   text-align: center;
-  height: auto; }
+  min-height: 270px;
+  color: #262626;
+  padding-bottom: 3.6em; }
 
 .contact h1 {
   padding-top: .8em; }
@@ -162,25 +198,28 @@ header {
   padding-bottom: 1.6em; }
 
 .contact nav {
-  padding-bottom: 3.6em;
   text-align: center;
   width: 40%;
-  margin: auto; }
+  margin: auto;
+  font-weight: bold; }
 
 .contact ul {
   display: flex;
   justify-content: space-around; }
 
 .contact li:hover {
-  border-bottom: 4px solid white;
+  border-bottom: 4px solid #262626;
   transition: all .1s ease; }
+
+.contact a {
+  color: #262626; }
 
 .footer {
   width: 100%;
   height: 40px;
-  background: #fff;
+  background: #7f4fd3;
   text-align: right;
-  color: #160534; }
+  color: #fff; }
 
 .footer p {
   position: relative;
