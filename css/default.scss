@@ -37,42 +37,43 @@ h2{
 header{
   position: fixed;
   width: 100%;
-}
 
-.menu{
-  background-color: rgb(127, 79, 211);
-  height: 3em;
-  display: flex;
-  justify-content: space-between;
-  -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.62);
-  -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.62);
-  box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.62);
-}
+  .menu{
+    background-color: rgb(127, 79, 211);
+    height: 3em;
+    display: flex;
+    justify-content: space-between;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.62);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.62);
+    box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.62);
+  
+    img{
+      height: auto;
+      width: 100%;
+      max-width: 50px;
+      margin-left: .6em;
+    }
 
-.menu img{
-  height: auto;
-  width: 100%;
-  max-width: 50px;
-  margin-left: .6em;
-}
+    nav{
+      position: relative;
+    }
 
-.menu nav{
-  position: relative;
-}
+    ul{
+      margin-right: 1.4em;
+      position: relative;
+      top: .8em;
+    }
 
-.menu ul{
-  margin-right: 1.4em;
-  position: relative;
-  top: .8em;
-}
+    li{
+      margin-left: 2em;
+    }
 
-.menu li{
-  margin-left: 2em;
-}
+    li:hover{
+      border-bottom: 4px solid white;
+      transition: all .1s ease;
+    }
+  }
 
-.menu li:hover{
-  border-bottom: 4px solid white;
-  transition: all .1s ease;
 }
 
 .me{
@@ -82,14 +83,14 @@ header{
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
 
-.me h1{
-  color: #161616;
-}
-
-.me h2{
-  color: #444444;
+  h1{
+    color: #161616;
+  }
+  
+  h2{
+    color: #444444;
+  }
 }
 
 .container{
@@ -148,12 +149,13 @@ header{
 }
 
 .bar-skills{
+  width: 100%;
+  margin: 0 auto;
   /* grid properties */
   line-height: 1.6em;
   display: flex;
   margin-top: 2rem;
   justify-content: center;
-  grid-column-gap: 4%;
   font-size: 1.3em;
   text-align: center;
   color: #fff;
@@ -177,6 +179,7 @@ header{
   padding-bottom: 1.5em;
   border-radius: 10px;
   max-width: 400px;
+  margin-left: 2em;
 }
 
 .bar-perc{
@@ -188,6 +191,40 @@ header{
   border-radius: 6px;
 }
 
+.pc-html{
+  width: 90%;
+  height: 100%;
+  background-color: rgb(48, 20, 97);
+  border-radius: 6px;
+}
+
+.pc-css{
+  width: 60%;
+  height: 100%;
+  background-color: rgb(48, 20, 97);
+  border-radius: 6px;
+}
+
+.pc-js{
+  width: 50%;
+  height: 100%;
+  background-color: rgb(48, 20, 97);
+  border-radius: 6px;
+}
+
+.pc-responsive{
+  width: 80%;
+  height: 100%;
+  background-color: rgb(48, 20, 97);
+  border-radius: 6px;
+}
+
+.pc-seo{
+  width: 90%;
+  height: 100%;
+  background-color: rgb(48, 20, 97);
+  border-radius: 6px;
+}
 
 .experience{
   background-color: rgb(127, 79, 211);
